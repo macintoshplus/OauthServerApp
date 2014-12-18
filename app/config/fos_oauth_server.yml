@@ -5,6 +5,6 @@ fos_oauth_server:
     auth_code_class: Jbnahan\ServerBundle\Entity\AuthCode
     db_driver: orm
     service:
-    	user_provider: plateform.user.provider
-    	options:
-    		supported_scopes: user
+        user_provider: platform.user.provider
+        options:
+            supported_scopes: user

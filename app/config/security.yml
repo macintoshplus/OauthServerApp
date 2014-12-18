@@ -12,7 +12,7 @@ security:
 
     providers:
         user_provider:
-            id: plateform.user.provider
+            id: platform.user.provider
         in_memory:
             memory:
                 users:
@@ -60,5 +60,5 @@ security:
     access_control:
         - { path: ^/demo/secured/hello/admin/, roles: ROLE_ADMIN }
         - { path: ^/api roles: [ IS_AUTHENTICATED_FULLY ] }
-        
+
         #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
