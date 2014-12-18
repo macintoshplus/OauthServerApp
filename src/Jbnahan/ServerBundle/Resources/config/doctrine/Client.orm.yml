@@ -12,5 +12,6 @@ Jbnahan\ServerBundle\Entity\Client:
         name:
             type: string
             length: '50'
+            nullable: true
     lifecycleCallbacks: {  }
 

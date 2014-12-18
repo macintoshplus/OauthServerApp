@@ -12,9 +12,11 @@ Jbnahan\ServerBundle\Entity\User:
         username:
             type: string
             length: '25'
+            unique: true
         email:
             type: string
             length: 255
+            unique: true
         salt:
             type: string
             length: '32'

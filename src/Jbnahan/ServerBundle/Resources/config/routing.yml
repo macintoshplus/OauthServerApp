@@ -1,3 +1,4 @@
 jbnahan_server_homepage:
     path:     /hello/{name}
     defaults: { _controller: JbnahanServerBundle:Default:index }
+
