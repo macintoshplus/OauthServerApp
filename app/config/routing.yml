@@ -1,0 +1,4 @@
+jbnahan_server:
+    resource: "@JbnahanServerBundle/Resources/config/routing.yml"
+    prefix:   /
+
