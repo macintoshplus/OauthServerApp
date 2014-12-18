@@ -1,0 +1,6 @@
+fos_oauth_server:
+    client_class: Jbnahan\ServerBundle\Entity\Client
+    access_token_class: Jbnahan\ServerBundle\Entity\AccessTocken
+    refresh_token_class: Jbnahan\ServerBundle\Entity\RefreshTocken
+    auth_code_class: Jbnahan\ServerBundle\Entity\AuthCode
+    db_driver: orm

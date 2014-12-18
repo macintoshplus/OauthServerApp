@@ -1,0 +1,16 @@
+Jbnahan\ServerBundle\Entity\Client:
+    type: entity
+    table: null
+    repositoryClass: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '50'
+    lifecycleCallbacks: {  }
+

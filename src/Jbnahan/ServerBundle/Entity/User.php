@@ -170,6 +170,17 @@ class User implements UserInterface, \Serializable
     {
         return $this->isActive;
     }
+
+
+    /**
+    * @inheritDoc
+    */
+    public function getRoles()
+    {
+      return array('ROLE_USER');
+    }
+
+
     /**
     * @inheritDoc
     */
