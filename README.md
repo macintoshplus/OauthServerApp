@@ -28,7 +28,7 @@ The password is same as `name`. and email is 'username'@nahan.fr.
 
 Add client :
 ```
-$ php jbnahan:oauth-server:client:create --redirect-uri="http://clinet.local/" --grant-type="authorization_code" --grant-type="password" --grant-type="refresh_token" --grant-type="token" --grant-type="client_credentials"
+$ php app/console jbnahan:oauth-server:client:create --redirect-uri="http://clinet.local/" --grant-type="authorization_code" --grant-type="password" --grant-type="refresh_token" --grant-type="token" --grant-type="client_credentials"
 ```
 
 # Tests
