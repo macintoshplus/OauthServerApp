@@ -2,3 +2,10 @@ jbnahan_server_homepage:
     path:     /hello/{name}
     defaults: { _controller: JbnahanServerBundle:Default:index }
 
+jbnahan_api_articles:
+    path: /api/articles
+    defaults: { _controller: JbnahanServerBundle:Api:articles }
+
+jbnahan_api_user:
+    path: /api/user
+    defaults: { _controller: JbnahanServerBundle:Api:user }

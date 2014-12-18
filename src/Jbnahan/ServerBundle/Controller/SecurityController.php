@@ -35,7 +35,7 @@ class SecurityController extends Controller
         $lastUsername = (null === $session) ? '' : $session->get(SecurityContext::LAST_USERNAME);
 
         return $this->render(
-            'AcmeDemoBundle:Security:login.html.twig',
+            'JbnahanServerBundle:Security:login.html.twig',
             array(
                 'last_username' => $lastUsername,
                 'error' => $error,
