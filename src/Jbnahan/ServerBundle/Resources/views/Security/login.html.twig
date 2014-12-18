@@ -1,10 +1,10 @@
 <div class="form">
-      <form id="login" class="vertical" action="" method="post">
+      <form id="login" class="vertical" action="{{ path("jbnahan_oauth_server_auth_login_check") }}" method="post">
           <div class="form_title">
               OAuth Authorization
           </div>
           {% if(error) %}
-          <div class='form_error'></div>
+          <div class='form_error'>{{ error }}</div>
           {% endif %}
           <div class="form_item">
               <div class="form_label"><label for="username">Username</label>:</div>

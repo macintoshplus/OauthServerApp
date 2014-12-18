@@ -1,7 +1,7 @@
 <?php
   // src/Acme/DemoBundle/Provider/UserProvider.php
 
-  namespace Jbnahan\ServerBundle\Provider;
+namespace Jbnahan\ServerBundle\Provider;
 
   use Symfony\Component\Security\Core\User\UserInterface;
   use Symfony\Component\Security\Core\User\UserProviderInterface;
@@ -14,7 +14,8 @@
   {
       protected $userRepository;
 
-      public function __construct(ObjectRepository $userRepository){
+      public function __construct(ObjectRepository $userRepository)
+      {
           $this->userRepository = $userRepository;
       }
 
@@ -31,7 +32,7 @@
               $user = $q->getSingleResult();
           } catch (NoResultException $e) {
               $message = sprintf(
-                  'Unable to find an active admin AcmeDemoBundle:User object identified by "%s".',
+                  'Unable to find an active admin JbnahanServerBundle:User object identified by "%s".',
                   $username
               );
               throw new UsernameNotFoundException($message, 0, $e);
