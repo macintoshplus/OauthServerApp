@@ -36,7 +36,12 @@ $ php jbnahan:oauth-server:client:create --redirect-uri="http://clinet.local/" -
 Work for this test :
 http://blog.tankist.de/blog/2013/07/18/oauth2-explained-part-3-using-oauth2-with-your-bare-hands/
 
+Work with Symfony 2.3.23 !
 
 # Links
 
 http://blog.tankist.de/blog/2013/07/16/oauth2-explained-part-1-principles-and-terminology/
+
+# Contribute
+
+Fork my repo and code !
