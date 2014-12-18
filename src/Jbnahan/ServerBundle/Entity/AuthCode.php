@@ -1,6 +1,5 @@
 <?php
-
-namespace Acme\DemoBundle\Entity;
+namespace Jbnahan\ServerBundle\Entity;
 
 use FOS\OAuthServerBundle\Entity\AuthCode as BaseAuthCode;
 use Doctrine\ORM\Mapping as ORM;
