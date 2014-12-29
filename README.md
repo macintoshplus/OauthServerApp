@@ -38,6 +38,12 @@ http://blog.tankist.de/blog/2013/07/18/oauth2-explained-part-3-using-oauth2-with
 
 Work with Symfony 2.3.23 !
 
+
+# Other Database storage
+
+This project use MySQL or other Doctrine 2 ORM driver (postgresql, sqlite, MS SQL Server...). If you want use this POC with another database storage server, fork my repos and change code for use your database server.
+
+
 # Links
 
 http://blog.tankist.de/blog/2013/07/16/oauth2-explained-part-1-principles-and-terminology/
