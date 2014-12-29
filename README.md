@@ -11,9 +11,14 @@ Execute
 ```
 $ php composer install
 ```
-Configure the database and create database with your administrator tools.
+Configure the database.
 
 # Init Database
+
+Create database
+```
+$ php app/console doctrine:database:create
+```
 
 Create schema
 ```
@@ -39,6 +44,8 @@ http://blog.tankist.de/blog/2013/07/18/oauth2-explained-part-3-using-oauth2-with
 Work with Symfony 2.3.23 !
 
 
+You want test without change your configuration or install more software in your computer ? Consider use (docker)[https://www.docker.com]
+
 # Other Database storage
 
 This project use MySQL or other Doctrine 2 ORM driver (postgresql, sqlite, MS SQL Server...). If you want use this POC with another database storage server, fork my repos and change code for use your database server.
@@ -47,6 +54,7 @@ This project use MySQL or other Doctrine 2 ORM driver (postgresql, sqlite, MS SQ
 # Links
 
 http://blog.tankist.de/blog/2013/07/16/oauth2-explained-part-1-principles-and-terminology/
+
 
 # Contribute
 
